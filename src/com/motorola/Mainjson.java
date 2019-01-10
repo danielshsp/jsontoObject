@@ -47,7 +47,7 @@ public class Mainjson {
 
         //Convert json to java
         try {
-
+//check
                 Category [] mp = mapper.readValue(jsonFormat, Category[].class);
                 for(int i=0; i<mp.length; i++){
 
